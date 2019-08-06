@@ -1,15 +1,13 @@
-//
-//  ViewController.swift
-//  MultipleVCNavigation
-//
-//  Created by Hiroo Kusaba on 2019/08/07.
-//  Copyright © 2019 Hiroo Kusaba. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func nextActionButton(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Second", bundle: nil)
+        let secondVC = storyboard.instantiateInitialViewController()!
+        navigationController?.show(secondVC, sender: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

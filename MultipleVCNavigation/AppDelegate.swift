@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  MultipleVCNavigation
-//
-//  Created by Hiroo Kusaba on 2019/08/07.
-//  Copyright © 2019 Hiroo Kusaba. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
